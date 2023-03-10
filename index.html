@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Index</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <script id="json-template" type="text/x-handlebars-template">
+        {{#each this}}
+        <div class="person">
+            <h2 class="name">{{name}}</h2>
+            <p class="age title">Age</p>
+            <p class="section">{{age}}</p>
+            <p class="pi title">PI</p>
+            <p class="section">{{pi}}</p>
+            {{#if bool}}
+            <p>This is <span class="true">{{bool}}</span></p>
+            {{else}}
+            <p>This is <span class="false">{{bool}}</span></p>
+            {{/if}}
+        </div>
+        {{/each}}
+    </script>
+</head>
+
+<body>
+<div id="container"></div>
+<script src="js/json_parse.js"></script>
+</body>
+</html>

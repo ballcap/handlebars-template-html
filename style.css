@@ -1,0 +1,36 @@
+body {
+            margin: auto;
+            background: #D8D8D8;
+        }
+        #container {
+            border: solid 1px #9A9A9A;
+            border-radius: 4px;
+            background: #FFF;
+            width: 25%;
+            padding: 10px;
+            margin: 10px auto;
+        }
+        #container h2 {
+            font-size: 26px;
+            color: #27F;
+            margin: 1px auto;
+            text-align: center;
+        }
+        #container p.title {
+            font-size: 20px;
+            color: #646464;
+            margin: 8px auto 3px auto;
+        }
+        #container p.section {
+            font-size: 16px;
+            color: #999;
+            margin: 3px auto 8px auto;
+        }
+        .true {
+            color: #3F3;
+            font-variant: small-caps;
+        }
+        .false {
+            color: #F33;
+            font-variant: small-caps;
+        }
